@@ -35,16 +35,16 @@ export const ThemeToggle=()=>{
   <button
     onClick={toggleTheme}
     className={cn(
-      "focus:outline-none fixed max-sm:hidden top-30 right-5 z-50",
-      "flex items-center gap-3 px-6 py-3 bg-background/60 rounded-full shadow-lg backdrop-blur-md"
+      "focus:outline-none fixed top-30 right-5 z-50",
+      "flex items-center gap-3 px-6 py-3 bg-background/60 rounded-full shadow-lg backdrop-blur-md","px-3 py-2 sm:px-6 sm:py-3", "text-sm sm:text-lg",
     )}
   >
-    <span className="text-xl font-semibold tracking-wide">
+    <span className="hidden sm:inline-block text-xl font-semibold tracking-wide">
       Switch Theme
     </span>
     {isDarkMode
-      ? <Zap className="h-9 w-9 text-orange-300" />
-      : <ZapOff className="h-9 w-9 text-black" />
+      ? <Zap className="h-9 w-9 sm:h-9 sm:w-9 text-orange-300" />
+      : <ZapOff className="h-9 w-9 sm:h-9 sm:w-9 text-black" />
     }
   </button>
 );

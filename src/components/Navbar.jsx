@@ -32,7 +32,7 @@ export const Navbar=()=>{
 
     <div className="container flex items-center justify-between">
       <div className="bg-background/30 backdrop-blur-md rounded-lg px-1 py-7 flex justify-center">
-      <a className=" font-custom text-3xl md:text-4xl font-bold font-sans" href="#me">
+      <a className=" font-custom text-3xl sm:text-xl md:text-3xl font-bold font-sans" href="#me">
         <span className="text-glow">Shlok Katiyar</span>
       </a>
     </div>
