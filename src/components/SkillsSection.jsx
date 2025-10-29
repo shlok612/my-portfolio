@@ -8,7 +8,7 @@ import pythonLogo from '../assets/python.jpeg';
 import gitLogo from '../assets/git.png';
 import vscodeLogo from '../assets/vs.jpeg';
 import expressLogo from '../assets/express.jpeg';
-import nodeLogo from '../assets/node.png';
+import nodeLogo from '../assets/node.jpeg';
 import mongoLogo from '../assets/vs.jpeg';
 
 
