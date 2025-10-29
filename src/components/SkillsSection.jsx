@@ -7,6 +7,9 @@ import javaLogo from '../assets/java.png';
 import pythonLogo from '../assets/python.jpeg';
 import gitLogo from '../assets/git.png';
 import vscodeLogo from '../assets/vs.jpeg';
+import expressLogo from '../assets/express.jpeg';
+import nodeLogo from '../assets/node.png';
+import mongoLogo from '../assets/vs.jpeg';
 
 
 const skills=[
@@ -16,6 +19,9 @@ const skills=[
   {name:"TYPESCRIPT", logo: tsLogo, level:95},
   {name:"REACT", logo: reactLogo, level:80},
   {name:"JAVA", logo: javaLogo, level:100},
+  {name:"NODE JS", logo: nodeLogo, level:75},
+  {name:"EXPRESS JS", logo: expressLogo, level:60},
+  {name:"MONGO DB", logo: mongoLogo, level:50},
   {name:"PYTHON", logo: pythonLogo, level:95},
   {name:"GIT/GITHUB", logo: gitLogo, level:95},
   {name:"VS CODE", logo: vscodeLogo, level:75}
